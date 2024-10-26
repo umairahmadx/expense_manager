@@ -1,0 +1,36 @@
+name: expense_manager
+description: "Expense Manager Flutter App."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/notFound.png
+
+  fonts:
+    - family: Baloo Bhai 2
+      fonts:
+        - asset: assets/fonts/BalooBhai2-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/BalooBhai2-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/BalooBhai2-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/BalooBhai2-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/BalooBhai2-ExtraBold.ttf
+          weight: 800
