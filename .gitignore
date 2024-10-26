@@ -39,6 +39,8 @@ migrate_working_dir/
 .metadata
 analysis_options.yaml
 expense_manager.iml
+pubspec.lock
+.gitignore
 
 # Symbolication related
 app.*.symbols
